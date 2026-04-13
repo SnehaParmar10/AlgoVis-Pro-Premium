@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoVis Pro | Sneha Parmar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>ALGOVIS PRO</h1>
+    
+    <div class="controls">
+        <button onclick="generateArray()">New Array</button>
+        <button onclick="bubbleSort()" style="background: var(--bar-color); color: black;">Start Bubble Sort</button>
+        <div class="speed-control">
+            <span>Visualizer Speed</span>
+            <input type="range" min="1" max="100" value="50">
+        </div>
+    </div>
+
+    <div id="array-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
