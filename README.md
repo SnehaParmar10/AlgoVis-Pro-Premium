@@ -1,4 +1,4 @@
-# 📊 AlgoVis Pro | Algorithm Visualizer
+...# 📊 AlgoVis Pro | Algorithm Visualizer
 
 An interactive Data Structures and Algorithms (DSA) visualizer that brings sorting logic to life with real-time animations.
 
